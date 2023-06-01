@@ -1,0 +1,84 @@
+.HomeBanner {
+  background-image: url('./bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  padding-top: 25em;
+  margin-top: -11em;
+}
+.learnMoreText {
+  position: relative;
+  top: 10em;
+}
+.downArrow {
+  position: relative;
+  top: 0.2em;
+  left: 0.2em;
+}
+.InfoContainer {
+  margin-bottom: 10em;
+}
+.InfoContainer h1 {
+  font-size: 3.75em;
+  line-height: 1.25em;
+  font-weight: 500;
+  margin: 0.5em 0em;
+}
+
+.InfoContainer p {
+  font-size: 1.35em;
+  line-height: 1.5em;
+  width: 17em;
+}
+
+.ButtonContainer a {
+  cursor: pointer;
+  border-radius: 0.4em;
+  padding: 0.618em 1.618em;
+  margin: 0 0.25em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.wave {
+  position: absolute;
+  margin-top: -0.1875em;
+}
+
+@media screen and (max-width: 62em) {
+  .downArrow {
+    top: 0.3em;
+  }
+  .learnMoreText {
+    position: initial;
+  }
+  .HomeBanner {
+    padding-top: 10em;
+    margin-top: 0em;
+    margin-bottom: 15em;
+    background-image: url('./bg.png');
+  }
+
+  .InfoContainer h1 {
+    font-size: 2.75em;
+  }
+
+  .InfoContainer p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 35em) {
+  .BannerWrapper {
+    padding: 0em;
+  }
+  .ButtonContainer a {
+    padding: 0.518em 1.218em;
+    font-size: 0.7em;
+  }
+
+  .InfoContainer h1 {
+    font-size: 2.45em;
+  }
+}

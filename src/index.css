@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  color: #1A2E35;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#Header.white {
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+p,
+span, a, li, div {
+  font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,37 @@
+.HeroSection {
+  display: flex;
+}
+.inverse {
+  flex-direction: row-reverse;
+}
+.contentSection,
+.imageSection {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageSection img {
+  width: 95%;
+}
+
+@media screen and (max-width: 62em) {
+  .HeroSection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contentSection {
+    min-width: fit-content;
+    justify-content: center;
+  }
+  .imageSection {
+    display: block;
+    min-width: fit-content;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 35em) {
+  .imageSection img {
+    width: 95%;
+  }
+}

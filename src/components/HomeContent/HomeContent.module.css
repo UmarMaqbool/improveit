@@ -1,0 +1,73 @@
+.ContentPage {
+  margin-top: 10em !important;
+  margin-bottom: 10em !important;
+  padding: 1em;
+}
+.HeroSection {
+  margin: 4em 0em;
+}
+.Header h2 {
+  color: #67794f;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+.InfoContainer {
+  margin-bottom: 8em;
+}
+.Header small {
+  font-size: 0.6em;
+}
+.Header h3 {
+  font-size: 2.25em;
+  font-weight: 600;
+  width: 15em;
+}
+.InfoContainer p {
+  width: 23em;
+  font-size: 1.1em;
+}
+.InfoContainer img {
+  width: 32em;
+}
+.hero2 {
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+.hero2 img {
+  width: 25em;
+  margin-left: 2em;
+}
+.mobileImage {
+  display: none;
+}
+@media screen and (max-width: 45em) {
+  .InfoContainer img {
+    max-width: 22em;
+    margin-left: 0em;
+  }
+  .mobileImage {
+    display: block;
+  }
+  .desktopImage {
+    display: none;
+  }
+  .InfoContainer {
+    width: 90vw;
+    margin-bottom: 0em;
+  }
+  .InfoContainer h3 {
+    font-size: 2em;
+    width: auto;
+  }
+  .InfoContainer h2 {
+    font-size: 1.75em;
+    width: auto;
+  }
+  .InfoContainer p {
+    font-size: 1em;
+    width: auto;
+  }
+  .hero2 {
+    margin: 0em;
+  }
+}

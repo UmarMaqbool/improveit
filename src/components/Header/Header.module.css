@@ -1,0 +1,49 @@
+
+.header {
+  z-index: 10;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100vw;
+}
+.logoimage {
+  height: 3.75em;
+  cursor: pointer;
+}
+.navlist {
+  display: flex;
+  font-size: 0.9em;
+  color: rgb(115, 115, 115);
+}
+.navlist > li {
+  margin: 1em 1em;
+  cursor: pointer;
+}
+.navlist > span {
+  margin: 1em 0.7em;
+  cursor: pointer;
+  color: #1A2E35;
+}
+
+.button {
+  margin-left: 1em;
+  background-color: #1A2E35;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 0.7em 1.25em;
+  border-radius: 0.7em;
+  cursor: pointer;
+}
+.contactButton:hover {
+  background-color: black;
+}
+@media screen and (max-width: 62em) {
+  .navlist  {
+    display: none;
+  }
+}
