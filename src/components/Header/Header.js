@@ -13,12 +13,12 @@ const Header = ({scroll}) => {
         alt="Improveit"
         className={styles.logoimage}
       /> 
-     <div>
+      <div>
         <ul className={styles.navlist}>
           {/* <span>How it works - Users</span>
           <li>How it works - Companies</li> */}
         </ul>
-      </div>   
+      </div> 
       <PopupButton className={styles.button} id="N4dayhmC">Join the waitlist!</PopupButton>
 
 
