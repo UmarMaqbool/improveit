@@ -48,7 +48,7 @@ const HomeContent = () => {
                 <h2>
                   <small>02. </small> How it works - Companies
                 </h2>
-                <h3>Learn, in real-time what your users truly want!</h3>
+                <h3>Learn in real-time what your users truly want!</h3>
               <p>
                 It’s free market research. Have a clear picture on what you
                 should change about your product.
