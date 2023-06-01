@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Header.module.css';
 import BusinessLogo from '../ReusableComponents/BusinessLogo/BusinessLogo';
 import logo from './Logo.png';
+import { PopupButton } from '@typeform/embed-react';
 
 const Header = ({scroll}) => {
   return (
@@ -11,14 +12,16 @@ const Header = ({scroll}) => {
         size={120}
         alt="Improveit"
         className={styles.logoimage}
-      />
-      <div>
+      /> 
+     <div>
         <ul className={styles.navlist}>
-          <span>How it works - Users</span>
-          <li>How it works - Companies</li>
+          {/* <span>How it works - Users</span>
+          <li>How it works - Companies</li> */}
         </ul>
-      </div>
-      <button className={styles.button} onClick={()=>scroll()}>Join the waitlist!</button>
+      </div>   
+      <PopupButton className={styles.button} id="N4dayhmC">Join the waitlist!</PopupButton>
+
+
     </div>
   );
 };
