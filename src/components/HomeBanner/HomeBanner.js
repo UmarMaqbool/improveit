@@ -8,6 +8,7 @@ import downArrow from './downArrow.svg';
 const HomeBanner = () => {
   return (
     <div className={styles.HomeBanner}>
+      <div className={styles.background}></div>
       <ContentContainer width={85}>
         <div className={styles.BannerWrapper}>
           <HeroSection

@@ -7,7 +7,7 @@ import chatDesktopImage from './chatDesktop.png';
 import chatMobileImage from './chatMobile.png';
 import chatDesktopImage2 from './chat2.png';
 import chatMobileImage2 from './chat2Mobile.png';
-import techImage from './tech.png'
+import techImage from './tech.png';
 
 const HomeContent = () => {
   return (
@@ -16,24 +16,34 @@ const HomeContent = () => {
         className={styles.HeroSection}
         contentWidthPercent={46}
         contentSection={
-            <div className={styles.InfoContainer}>
-              <div className={styles.Header}>
-                <h2>
-                  <small>01. </small> How it works - Users
-                </h2>
-                <h3>Post your requests on company pages</h3>
-              </div>
-              <p>
-                Highest voted requests will show up on top so you can actually
-                get heard.
-              </p>
+          <div className={styles.InfoContainer}>
+            <div className={styles.Header}>
+              <h2>
+                <small>01. </small> How it works - Users
+              </h2>
+              <h3>Post your requests on company pages</h3>
+            </div>
+            <p>
+              Highest voted requests will show up on top so you can actually get
+              heard.
+            </p>
+            <div className={styles.imageContainer}>
               <img src={personsImage} alt="persons" />
             </div>
+          </div>
         }
         imageSection={
           <>
-            <img className={styles.desktopImage} src={chatDesktopImage} alt="Chat" />
-            <img className={styles.mobileImage} src={chatMobileImage} alt="Chat" />
+            <img
+              className={styles.desktopImage}
+              src={chatDesktopImage}
+              alt="Chat"
+            />
+            <img
+              className={styles.mobileImage}
+              src={chatMobileImage}
+              alt="Chat"
+            />
           </>
         }
       />
@@ -49,19 +59,29 @@ const HomeContent = () => {
                   <small>02. </small> How it works - Companies
                 </h2>
                 <h3>Learn in real-time what your users truly want!</h3>
-              <p>
-                It’s free market research. Have a clear picture on what you
-                should change about your product.
-              </p>
-              <img src={techImage} alt="tech" />        
+                <p>
+                  It’s free market research. Have a clear picture on what you
+                  should change about your product.
+                </p>
+                <div className={styles.imageContainer}>
+                  <img src={techImage} alt="tech" />
+                </div>
               </div>
             </div>
           </>
         }
         imageSection={
           <>
-             <img className={styles.desktopImage} src={chatDesktopImage2} alt="Chat" />
-            <img className={styles.mobileImage} src={chatMobileImage2} alt="Chat" />
+            <img
+              className={styles.desktopImage}
+              src={chatDesktopImage2}
+              alt="Chat"
+            />
+            <img
+              className={styles.mobileImage}
+              src={chatMobileImage2}
+              alt="Chat"
+            />
           </>
         }
       />

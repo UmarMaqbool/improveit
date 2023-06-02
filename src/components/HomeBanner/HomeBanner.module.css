@@ -54,13 +54,7 @@
   .learnMoreText {
     position: initial;
   }
-  .HomeBanner {
-    padding-top: 10em;
-    margin-top: 0em;
-    margin-bottom: 15em;
-    background-image: url('./bg.png');
-  }
-
+ 
   .InfoContainer h1 {
     font-size: 2.75em;
   }
@@ -69,6 +63,17 @@
     font-size: 1em;
   }
 }
+@media screen and (max-width: 38em) {
+  .HomeBanner {
+    padding-top: 10em;
+    margin-top: 0em;
+    padding-bottom: 15em;
+    background-image: url('./bg.png');
+  }
+}
+
+
+
 @media screen and (max-width: 35em) {
   .BannerWrapper {
     padding: 0em;
