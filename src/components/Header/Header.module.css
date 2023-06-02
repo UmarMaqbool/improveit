@@ -1,4 +1,3 @@
-
 .header {
   z-index: 10;
   height: 4em;
@@ -13,6 +12,8 @@
 .logoimage {
   height: 3.75em;
   cursor: pointer;
+  position: absolute;
+  left: 5em;
 }
 .navlist {
   display: flex;
@@ -26,24 +27,32 @@
 .navlist > span {
   margin: 1em 0.7em;
   cursor: pointer;
-  color: #1A2E35;
+  color: #1a2e35;
 }
 
 .button {
   margin-left: 1em;
-  background-color: #1A2E35;
+  background-color: #1a2e35;
   border: none;
   color: white;
   font-size: 16px;
   padding: 0.7em 1.25em;
   border-radius: 0.7em;
   cursor: pointer;
+  position: absolute;
+  right: 5em;
 }
 .contactButton:hover {
   background-color: black;
 }
 @media screen and (max-width: 62em) {
-  .navlist  {
+  .navlist {
     display: none;
+  }
+  .button {
+    right: 1em;
+  }
+  .logoimage {
+    left: 1em;
   }
 }

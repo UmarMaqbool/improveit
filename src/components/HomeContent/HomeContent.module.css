@@ -71,3 +71,9 @@
     margin: 0em;
   }
 }
+@media screen and (max-width: 35em) {
+  .InfoContainer img {
+    max-width: 18em;
+  }
+ 
+}
