@@ -3,6 +3,9 @@ body {
   color: #1A2E35;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: constant(safe-area-inset-top); /* iOS 11.0+ */
+  padding-top: env(safe-area-inset-top);
+  
 }
 
 code {
