@@ -1,0 +1,42 @@
+.bannerImageContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: top 0.5s ease-in-out;
+}
+
+.button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  color: black;
+  background-color: #ade5ab;
+  font-size: 16px;
+  padding: 1.47em 2.9em;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: top 0.5s ease-in-out;
+}
+@media screen and (max-width: 62em) {
+  .button {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 37.48em) {
+  .button {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 21em) {
+  .button {
+    font-size: 11px;
+  }
+}
+

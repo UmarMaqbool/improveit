@@ -32,11 +32,11 @@
 
 .button {
   margin-left: 1em;
-  background-color: #1a2e35;
+  background-color: #DCEACB;
   border: none;
-  color: white;
+  color: black;
   font-size: 16px;
-  padding: 0.7em 1.25em;
+  padding: 0.9em 2.27em;
   border-radius: 0.7em;
   cursor: pointer;
   position: absolute;
@@ -54,5 +54,8 @@
   }
   .logoimage {
     left: 1em;
+  }
+  .button {
+    font-size: 12px;
   }
 }

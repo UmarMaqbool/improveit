@@ -1,5 +1,5 @@
 .ContentPage {
-  margin-top: 10em !important;
+  margin-top: 2em !important;
   margin-bottom: 10em !important;
   padding: 1em;
 }
@@ -72,6 +72,11 @@
   }
   .hero2 {
     margin: 0em;
+  }
+}
+@media screen and (max-width: 37.48em) {
+  .ContentPage {
+    margin-top: 0em !important;
   }
 }
 @media screen and (max-width: 35em) {

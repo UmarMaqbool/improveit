@@ -1,10 +1,10 @@
 .HomeBanner {
-  background-image: url('./bg2.png');
+  /* background-image: url('./bg2.png'); */
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1em;
-  padding-top: 25em;
-  margin-top: -11em;
+  /* padding: 1em; */
+  padding-top: 2em;
+  margin-top: -7em;
 }
 .learnMoreText {
   position: relative;
@@ -65,14 +65,12 @@
 }
 @media screen and (max-width: 38em) {
   .HomeBanner {
-    padding-top: 10em;
+    /* padding-top: 10em; */
     margin-top: 0em;
-    padding-bottom: 15em;
-    background-image: url('./bg.png');
+    /* padding-bottom: 15em; */
+    /* background-image: url('./bg.png'); */
   }
 }
-
-
 
 @media screen and (max-width: 35em) {
   .BannerWrapper {

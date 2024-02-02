@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const ContentContainer = (props) => {
   const componentStyle = {
-    maxWidth: props.width + 'em',
+    maxWidth: props.width + '%',
     margin: '0 auto',
   };
   return <div id={props.id} className={props.className} data-testid="ContentContainer" style={componentStyle}>{props.children}</div>;
