@@ -3,7 +3,7 @@ import ContentContainer from '../ReusableComponents/ContentContainer/ContentCont
 import BannerImage from '../ReusableComponents/BannerImage/BannerImage';
 // import HeroSection from '../ReusableComponents/HeroSection/HeroSection';
 import BusinessImageWeb from './header_web.svg';
-import BusinessImageMbl from './header_mbl.svg';
+import BusinessImageMbl from './header_mbl.jpg';
 // import BusinessImage from './business.png';
 import styles from './HomeBanner.module.css';
 // import downArrow from './downArrow.svg'

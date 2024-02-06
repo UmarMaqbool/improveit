@@ -63,16 +63,11 @@
     font-size: 1em;
   }
 }
-@media screen and (max-width: 38em) {
-  .HomeBanner {
-    /* padding-top: 10em; */
-    margin-top: 0em;
-    /* padding-bottom: 15em; */
-    /* background-image: url('./bg.png'); */
-  }
-}
 
 @media screen and (max-width: 35em) {
+  .HomeBanner {
+    margin-top: -2.5em;
+  }
   .BannerWrapper {
     padding: 0em;
   }
