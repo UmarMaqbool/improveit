@@ -19,7 +19,7 @@ const Header = ({scroll}) => {
           <li>How it works - Companies</li> */}
         </ul>
       </div> 
-      <PopupButton className={styles.button} id="N4dayhmC">Join the waitlist!</PopupButton>
+      <PopupButton className={styles.button} id="N4dayhmC">Sign Up</PopupButton>
 
 
     </div>

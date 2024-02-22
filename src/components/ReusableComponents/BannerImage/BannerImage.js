@@ -17,7 +17,7 @@ const BannerImage = ({ imageUrl, altText, onClick, isWebImage }) => {
                 style={{ top: buttonTop }}
                 id="N4dayhmC"
             >
-                Join the waitlist!
+                Sign Up
             </PopupButton>
         </div>
     );

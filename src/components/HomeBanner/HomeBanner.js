@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ContentContainer from '../ReusableComponents/ContentContainer/ContentContainer';
 import BannerImage from '../ReusableComponents/BannerImage/BannerImage';
 // import HeroSection from '../ReusableComponents/HeroSection/HeroSection';
-import BusinessImageWeb from './header_web.svg';
+import BusinessImageWeb from './header_web.jpg';
 import BusinessImageMbl from './header_mbl.jpg';
 // import BusinessImage from './business.png';
 import styles from './HomeBanner.module.css';
