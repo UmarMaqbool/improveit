@@ -62,7 +62,6 @@ const HomeBanner = () => {
         <BannerImage
             imageUrl={imageUrl}
             altText="Banner Image"
-            onClick={() => alert('Button Clicked!')}
             isWebImage={windowSize.width >= 600}
           />
         </ContentContainer>
