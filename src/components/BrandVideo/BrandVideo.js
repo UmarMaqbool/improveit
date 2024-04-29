@@ -1,7 +1,6 @@
 import React from 'react';
 import ContentContainer from '../ReusableComponents/ContentContainer/ContentContainer';
 import styles from './BrandVideo.module.css';
-import 'video-react/dist/video-react.css';
 
 const BrandVideo = () => {
   return (
