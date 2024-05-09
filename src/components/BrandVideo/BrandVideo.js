@@ -112,6 +112,7 @@ const BrandVideo = () => {
               data-w-id="f876ecd2-bdb0-c37f-93ce-b2220dc37aed"
               style={{
                 opacity: isMuted ? 1 : 0,
+                WebkitTapHighlightColor: 'transparent',
                 WebkitTransform:
                   'translate3d(0, 0em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
                 MozTransform:
