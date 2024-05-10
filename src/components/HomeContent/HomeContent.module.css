@@ -10,6 +10,7 @@
   color: #67794f;
   font-size: 2.25em;
   font-weight: 500;
+  margin-top: 0em;
 }
 .InfoContainer {
   margin-bottom: 8em;
@@ -39,6 +40,28 @@
 }
 .mobileImage {
   display: none;
+}
+
+@media screen and (max-width: 95em) and (min-width: 62em) {
+  .ContentPage {
+    max-width: 90% !important;
+  }
+  .Header h2 {
+    font-size: 2em;
+
+  }
+  .Header h3 {
+    width: 12em;
+  }
+  .InfoContainer img {
+    width: 27em;
+  }
+  .hero2 {
+    margin: 2em;
+  }
+  .hero2 img {
+    width: 18em;
+  }
 }
 @media screen and (max-width: 45em) {
   .InfoContainer img {
