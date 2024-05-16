@@ -6,13 +6,20 @@
 }
 .contentSection,
 .imageSection {
-  padding: 1em;
+  padding-left: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .imageSection img {
   width: 95%;
+}
+
+@media screen and (max-width: 80em) and (min-width: 62em) {
+  .imageSection img {
+    width: 90%;
+    margin-bottom: 6em;
+  }
 }
 
 @media screen and (max-width: 62em) {
