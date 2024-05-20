@@ -90,7 +90,7 @@ const BrandVideo = () => {
               <iframe
                 id="vimeo-video"
                 className={styles.vimeo_video}
-                src="https://player.vimeo.com/video/941098748?background=1"
+                src="https://player.vimeo.com/video/948195522?background=1"
                 width="100%"
                 height="100%"
                 style={{
