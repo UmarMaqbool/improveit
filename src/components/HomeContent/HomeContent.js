@@ -60,8 +60,7 @@ const HomeContent = () => {
                 </h2>
                 <h3>Learn in real-time what your users truly want!</h3>
                 <p>
-                  It’s free market research. Have a clear picture on what you
-                  should change about your product.
+                Create a verified profile and engage with your users effortlessly. Accessible, effective, and free market research at your fingertips!
                 </p>
                 <div className={styles.imageContainer}>
                   <img src={techImage} alt="tech" />
